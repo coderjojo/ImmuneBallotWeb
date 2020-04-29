@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>login</title>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="logincss.css"/>
+<!-- Include JS File Here -->
+<script src="loginjs.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>Login to your Ballot</h2>
+<form id="form_id" method="post" name="myform">
+<label>Addhar No :</label>
+<input type="text" name="username" id="username"/>
+<label>OTP :</label>
+<input type="password" name="password" id="password"/>
+<label>Upload Barcode:</label>
+<input type="file" id="files" name="files[]" multiple />
+<output id="list"></output>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+<span style="color: white;"><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span>
+</div>
+
+<div class="sub">
+<p style="color: white;">Instruction to follow 
+<ul style="color:white;">
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+	<li>6</li>
+</p>	
+</div>
+</div>
+<script src="imgshw.js"></script>
+</body>
+</html>

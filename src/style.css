@@ -1,0 +1,92 @@
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  padding: 8em;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25); 
+  text-align: center; 
+}
+.typewrite{
+    position: relative;
+    top: 90%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+.title__action{
+  padding-top: 3em;
+  font-size: 24px;
+}
+.button-group{
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+
+}
+.btn, button, input[type="submit"], input[type="button"] {
+  display: inline-block;
+  line-height: 1.625;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.75px;
+  padding: 1rem 3.125rem;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  outline: none !important;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.btn-success {
+  color: #fff;
+  background-color: #rgb(25,25,25);
+  border-color: #57d03b;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #389123;
+  border-color: #2b711b;
+}
+.button-sm{
+  padding: 10px 15px;
+  font-size: 12px;
+  text-decoration: none
+}
+#myVideo {
+  position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
