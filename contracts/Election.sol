@@ -23,10 +23,10 @@ contract  Election {
 
 
     constructor() public {
-        addCandidate("Logan Paul");
-        addCandidate("Felix");
-        addCandidate("Vedant Jajoo");
-        addCandidate("Bhuwan Bam");
+        addCandidate("John");
+        addCandidate("Joe");
+        addCandidate("Peter");
+        addCandidate("Mike");
         addCandidate("None of the above");
 
 
